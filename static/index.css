@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+@import url('https://unpkg.com/@fortawesome/fontawesome-free@5.15.4/css/all.min.css');
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+* {
+    font-family: Roboto;
+}
+
+body {
+    
+
+    background: url(https://96664d967d1e7fdc.demo.carrd.co/assets/images/image02.jpg?v=6ebbbfb1) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    animation: fadeInAnimation ease-in-out 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.fa-magnifying-glass {
+    color: white;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.logo-wrapper2 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1%;
+  margin-bottom: 2%;
+}
+.cat {
+ height: 50px;
+ width: 200px;
+}
+.logo {
+  
+    width: 150px;
+}
+
+.logo-wrapper .text {
+    margin: 30px;
+    font-size: 75px;
+    font-family: "Roboto";
+    color: #FFF;
+}
+
+.logo-wrapper h1 {
+      margin: 30px;
+    color: white;
+}
+
+footer {
+
+    margin-top: auto;
+    width: 93%;
+    align-self: center;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+footer a,
+footer span {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+}
+
+footer a {
+    cursor: pointer;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+}
+
+.desc p {
+    margin:20px;
+    width: 560px;
+    color: rgba(255, 255, 255);
+}
+
+form input {
+    background: none;
+    font-family: inherit;
+    padding: 0px 17px;
+    height: 48px;
+    border: 1px solid rgb(255, 255, 255, .514);
+    color: rgba(255, 255, 255, 0.514);
+    border-radius: 1px;
+    outline: none;
+    width: 350px;
+    margin-top: 5px;
+    border-radius: 50px;
+    color: #FFF;
+}
+
+form input:focus {
+    border: 1px solid rgba(255, 255, 255, 0.514);
+    border-radius: 6px;
+    animation: fadeInAnimation ease-in-out 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
